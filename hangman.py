@@ -61,6 +61,13 @@ def play_game():
     # If the max incorrect guesses is reached
     display_hangman(incorrect_guesses)
     print("You are hanged!")
+    print("-----|")
+    print("  |  |")
+    print("  O  |")
+    print(" /|\\ |")
+    print(" / \\ |")
+    print("     |")
+    print("_____|")
     print(f"The word was: {word}")
 
 def main():
